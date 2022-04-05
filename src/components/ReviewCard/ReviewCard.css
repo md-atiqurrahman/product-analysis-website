@@ -1,0 +1,21 @@
+.reviewer-container{
+    width: 300px;
+    height: 250px;
+    border: 1px solid gray;
+    padding: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.rating{
+    color: rgb(245, 150, 8);
+}
+.reviewer-container p{
+     color: black;
+     font-family: monospace;
+     font-size: 18px;
+}
+.reviewer-container p .desrciption{
+    color: black;
+    font-size: 14px;
+}
