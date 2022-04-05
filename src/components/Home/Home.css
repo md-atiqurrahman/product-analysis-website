@@ -1,0 +1,23 @@
+.home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.books-details{
+    margin-top: 70px;
+    margin-left: 100px;
+    text-align: justify;
+}
+.title-name{
+    color: #0588fa;
+    margin-bottom: 30px;
+}
+.details-btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #0588fa;
+    margin-top: 40px;
+}
