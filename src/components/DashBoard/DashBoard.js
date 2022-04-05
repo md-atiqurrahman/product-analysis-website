@@ -10,9 +10,9 @@ const DashBoard = () => {
             .then(data => setIncome(data))
     }, [])
     return (
-        <div className=''>
-            <div className='mt-16'>
-                <LineChart width={730} height={250} data={income}>
+        <div className='flex mt-16'>
+            <div className='ml-20'>
+                <LineChart width={550} height={250} data={income}>
                     <Line dataKey='investment' stroke="#8884d8"></Line>
                     <Line dataKey='sell' stroke='#ff7300'></Line>
                     <Line dataKey='revenue' stroke="#82ca9d"></Line>
@@ -21,8 +21,8 @@ const DashBoard = () => {
                     <Tooltip></Tooltip>
                 </LineChart>
             </div>
-            <div className='mt-16'>
-                <BarChart width={730} height={250} data={income}>
+            <div className='ml-20'>
+                <BarChart width={550} height={250} data={income}>
                     <Bar dataKey="investment" fill="#8884d8" />
                     <Bar dataKey="sell" fill="#ff7300" />
                     <Bar dataKey="revenue" fill="#82ca9d" />

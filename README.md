@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Books for Learing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project live site link is [live site](https://books-forlearning-a441c4.netlify.app/).
 
 ## Available Scripts
 
