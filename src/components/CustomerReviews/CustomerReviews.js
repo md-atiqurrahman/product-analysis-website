@@ -21,7 +21,7 @@ const CustomerReviews = () => {
                     </ReviewCard>)
                 }
             </div>
-            <button onClick={() => navigate('/reviews')} className='All-review-btn text-xl'>See All Reviews</button>
+            <button onClick={() => navigate('/reviews')} className='All-review-btn text-xl mb-5'>See All Reviews</button>
         </div>
     );
 };

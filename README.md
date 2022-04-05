@@ -2,6 +2,13 @@
 
 This project live site link is [live site](https://books-forlearning-a441c4.netlify.app/).
 
+* My projects description:
+   * My project is based on books.
+   * I add some customer review in HOME and REVIEWS.
+   * I add some chart in DASHBOARD.
+   * I use a custom hook for my project.
+   * In the BLOGS i answered two question
+
 ## Available Scripts
 
 In the project directory, you can run:
